@@ -8,13 +8,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.google.firebase.udacity.friendlychat"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -35,8 +35,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.android.support:design:24.2.1'
-    implementation 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
 
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:3.6.1'
@@ -44,6 +44,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.1'
      // DataBase
     implementation 'com.google.firebase:firebase-database:16.0.1'
+    // Auth
+
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
 
 
 }
