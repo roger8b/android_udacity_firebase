@@ -45,8 +45,9 @@ dependencies {
      // DataBase
     implementation 'com.google.firebase:firebase-database:16.0.1'
     // Auth
-
     implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+    // Storage
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
 
 
 }
