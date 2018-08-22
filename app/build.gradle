@@ -50,6 +50,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:16.0.1'
     // Notifications
     implementation 'com.google.firebase:firebase-messaging:17.3.0'
+    // Remote config
+    implementation 'com.google.firebase:firebase-config:16.0.0'
 
 
 }
